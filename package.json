@@ -2,7 +2,10 @@
   "name": "@ng-mf/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx run login:serve",
+    "generate": "nx g @nx/angular:remote apps/login --prefix=ng-mf --host=dashboard"
+  },
   "private": true,
   "devDependencies": {
     "@angular-devkit/build-angular": "~20.1.0",
